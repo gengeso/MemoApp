@@ -21,7 +21,7 @@ Hello.propTypes = {
 
 Hello.defaultProps = {
   bang: false,
-  style: shape(),
+  style: null,
 };
 
 const styles = StyleSheet.create({
