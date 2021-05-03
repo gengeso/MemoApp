@@ -21,8 +21,8 @@ export default function SignUpScreen(props) {
     firebase
       .auth()
       .createUserWithEmailAndPassword(email, password)
-      .then((userCredential) => {
-        const { user } = userCredential;
+      .then((userCredentail) => {
+        const { user } = userCredentail;
         console.log(user.uid);
         navigation.reset({
           index: 0,
