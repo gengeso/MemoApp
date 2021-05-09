@@ -36,8 +36,8 @@ export default function MemoCreateScreen(props) {
           style={styles.input}
           onChangeText={(text) => {
             setBodyText(text);
-            autoFocus;
           }}
+          autoFocus
         />
       </View>
       <CircleButton name="check" onPress={handlePress} />
